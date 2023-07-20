@@ -1,0 +1,10 @@
+.menu-main-content {
+    height: 100vh;
+}
+
+.menu-main-section {
+    background-image: url(./images/menu-image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}

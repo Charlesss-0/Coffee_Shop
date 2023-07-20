@@ -1,0 +1,10 @@
+.about-main-content {
+    height: 100vh;
+}
+
+.about-main-section {
+    background-image: url(./images/about-background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
