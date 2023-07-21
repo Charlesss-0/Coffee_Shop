@@ -1,4 +1,5 @@
 import menuCSS from './menu.css';
+import './images/menu-image.jpg';
 
 export default class MenuPage {
     render() {

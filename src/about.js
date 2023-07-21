@@ -1,4 +1,5 @@
 import aboutCSS from './about.css';
+import './images/about-background.jpg'
 
 export default class AboutPage {
     render() {
