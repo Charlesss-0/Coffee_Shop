@@ -18,7 +18,7 @@ function renderHome() {
 }; renderHome();
 home.addEventListener('click', renderHome)
 
-menu.addEventListener('click', () => {
+function renderMenu() {
     import('./menu.js').then(module => {
         menu.classList.add('active-button');
         home.classList.remove('active-button');
@@ -28,9 +28,10 @@ menu.addEventListener('click', () => {
         const menupage = new MenuPage();
         contentEl.appendChild(menupage.render());
     });
-});
+};
+menu.addEventListener('click', renderMenu);
 
-about.addEventListener('click', () => {
+function renderAbout() {
     import('./about.js').then(module => {
         about.classList.add('active-button');
         home.classList.remove('active-button');
@@ -40,4 +41,5 @@ about.addEventListener('click', () => {
         const aboutpage = new AboutPage();
         contentEl.appendChild(aboutpage.render());
     });
-});
+}
+about.addEventListener('click', renderAbout)

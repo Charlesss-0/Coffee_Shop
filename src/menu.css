@@ -1,5 +1,11 @@
+:root {
+    --menu-color: #EEE3CB55;
+    --menu-font-color: #efefef;
+}
+
 .menu-main-content {
     height: 100vh;
+    color: var(--menu-font-color);
 }
 
 .menu-main-section {
@@ -7,4 +13,76 @@
     background-size: cover;
     background-position: center;
     height: 100%;
+    padding-top: 10em;
+}
+
+.coffee-menu-wrapper {
+    background-color: var(--menu-color);
+    width: min(1000px, 95%);
+    height: 87vh;
+    font-size: 2rem;
+    text-align: center;
+    padding: 5em 0;
+    padding-bottom: 0;
+    margin: 0 auto;
+    border-radius: 1em;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    overflow: auto;
+}
+
+.coffee-menu-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.coffee-menu-wrapper p{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+.menu {
+    margin-top: 2em;
+    padding: 1em;
+}
+
+.menu ul li {
+    text-align: start;
+    list-style: none;
+    margin: 2em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu ul li img {
+    width: 50px;
+    margin: 0 auto;
+}
+
+.menu ul li h2 {
+    font-size: 2rem;
+}
+
+.menu ul li p {
+    font-size: 1.3rem;
+}
+
+.ttl-n-prc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ttl-n-prc hr {
+    border: none;
+    border-bottom: 1px dashed #361500;
+    align-self: center;
+    
+    flex: 1 1 auto;
+    margin: 0 1em;
+}
+
+.cf-in {
+    font-size: 1.2rem;
+    color: #efefefaa;
 }

@@ -82,6 +82,9 @@ export default class HomePage {
                         </button>
                     </div>
                 </div>
+                <button class="view-more-btn">
+                    View More <span><i class="fi fi-sr-angle-small-right"></i></span>
+                </button>
             </section>
 
             <section class="quote-section">
@@ -103,24 +106,24 @@ export default class HomePage {
                 <form class="form-field">
                     <fieldset>
                         <div>
-                            <label for="user-name">Your Name</label>
-                            <input type"text" id="user-name" name="username" required>
+                            <label for="user-name"></label>
+                            <input type"text" id="user-name" name="username" placeholder="Name" required>
                         </div>
 
                         <div>
-                            <label for="email-address">Email Address</label>
-                            <input type="email" id="email-address" name="useremail" required>
+                            <label for="email-address"></label>
+                            <input type="email" id="email-address" name="useremail" placeholder="Email" required>
                         </div>
                     </fieldset>
 
                     <fieldset>
                         <div>
-                            <label for="phone-number">Phone Number</label>
-                            <input type="tel" id="phone-number" name="userphone">
+                            <label for="phone-number"></label>
+                            <input type="tel" id="phone-number" name="userphone" placeholder="Phone Number">
                         </div>
 
                         <div>
-                            <label for="date">MM/DD/YYYY</label>
+                            <label for="date"></label>
                             <input type="date" id="date" name="date" required>
                         </div>
                     </fieldset>
@@ -128,21 +131,23 @@ export default class HomePage {
                     <fieldset>
                         <div>
                             <select>
-                                <option>Select</option>
+                                <option>
+                                    6:00 AM
+                                </option>
                             </select>
                         </div>
 
                         <div>
                             <select>
                                 <option>
-                                    Select
+                                    2 People
                                 </option>
                             </select>
                         </div>
                     </fieldset>
 
                     <fieldset>
-                        <textarea></textarea>
+                        <textarea placeholder="Your Message"></textarea>
                     </fieldset>
 
                     <fieldset>
@@ -157,3 +162,4 @@ export default class HomePage {
         return mainContent;
     };
 };
+
