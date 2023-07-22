@@ -15,7 +15,7 @@ function renderHome() {
         const homepage = new HomePage();
         contentEl.appendChild(homepage.render());
     });
-};
+} renderHome();
 home.addEventListener('click', renderHome)
 
 function renderMenu() {
@@ -41,5 +41,5 @@ function renderAbout() {
         const aboutpage = new AboutPage();
         contentEl.appendChild(aboutpage.render());
     });
-} renderAbout();
+}
 about.addEventListener('click', renderAbout)
