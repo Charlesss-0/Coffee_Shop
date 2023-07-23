@@ -4,6 +4,7 @@
 :root {
     --primary-color: #efefef;
     --secondary-color: #2f2f2f;
+    --footer-background: #1a1a1a;
 }
 
 *,
@@ -62,6 +63,28 @@ body {
     border-radius: 1em;
 }
 
+.footer-content {
+    background-color: var(--footer-background);
+    color: var(--primary-color);
+    padding: 3em 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    font-size: 1.5rem;
+}
+
+.copyright a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.copyright a:hover {
+    text-decoration: underline;
+}
 
 /* HEADER CONTENT SECTION END */
 

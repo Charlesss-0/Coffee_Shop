@@ -157,6 +157,12 @@ export default class HomePage {
                     </fieldset>
                 </form>
             </section>
+
+            <footer class="footer-content">
+                <p class="copyright">
+                    &copy; 2023 <a href="https://github.com/Charlesss-0" target="_blank">CARLOSDEV</a>
+                </p>
+            </footer>
         `;
 
         return mainContent;
